@@ -1,9 +1,13 @@
 import './Main.css';
 import Promo from '../Promo/Promo';
+import Header from '../Header/Header';
 
 function Main() {
   return (
-    <Promo/>
+    <>
+      <Header />
+      <Promo />
+    </>
   );
 }
 

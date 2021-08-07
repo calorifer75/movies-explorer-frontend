@@ -1,0 +1,54 @@
+.header {
+  width: 100%;
+  background-color: #FAFAFA;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 18px 14px;
+}
+
+.header__right-side {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.header__register-link {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 16px;
+  color: #000000;
+  text-decoration: none;
+  margin-right: 14px;
+}
+
+.header__login-btn {
+  background: #3456F3;
+  border: none;
+  border-radius: 3px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 16px;
+  color: #FFFFFF;
+  width: 54px;
+  height: 26px;
+  cursor: pointer;
+}
+
+.header__menu-btn {
+  padding: 0;
+  border: none;
+  width: 40px;
+  height: 43px;
+  background-color: transparent;
+  background-image: url(../../images/menu.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
