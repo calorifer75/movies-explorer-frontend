@@ -8,7 +8,7 @@ function Promo() {
         <p className='promo__text-banner'>
           Учебный проект студента факультета Веб-разработки.
         </p>
-      <NavTab/>        
+        <NavTab />
       </div>
     </section>
   );
