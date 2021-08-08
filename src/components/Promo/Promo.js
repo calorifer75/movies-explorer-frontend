@@ -5,9 +5,9 @@ function Promo() {
   return (
     <section className='promo'>
       <div className='promo__wrapper'>
-        <p className='promo__text-banner'>
+        <h1 className='promo__text-banner'>
           Учебный проект студента факультета Веб-разработки.
-        </p>
+        </h1>
         <NavTab />
       </div>
     </section>
