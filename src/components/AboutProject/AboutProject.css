@@ -9,26 +9,7 @@
   margin: 70px 18px;
 }
 
-.about-project__title {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 22px;
-  letter-spacing: -0.04em;
-  margin: 0 0 16px 0;
-}
-
-.about-project__title_underlined {
-  border-bottom: 1px solid #000000;
-  padding-bottom: 28px;
-  margin-bottom: 60px;
-}
-
-.about-project__paragraph {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
+.about-project__paragraph {  
   font-size: 11px;
   line-height: 16px;
   margin: 0 0 60px 0;
@@ -36,9 +17,6 @@
 
 .about-project__timeline {
   display: flex;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
   font-size: 11px;
   line-height: 13px;
   text-align: center;

@@ -1,3 +1,7 @@
 @import url(./vendor/normalize.css);
 @import url(./fonts/inter.css);
 @import url(./fonts/suisse.css);
+@import url(./blocks/body/body.css);
+@import url(./blocks/page/page.css);
+@import url(./blocks/main-subtitle/main-subtitle.css);
+@import url(./blocks/main-subtitle/_underlined/main-subtitle_underlined.css);

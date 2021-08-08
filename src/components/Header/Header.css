@@ -16,8 +16,6 @@
 }
 
 .header__register-link {
-  font-family: Inter;
-  font-style: normal;
   font-weight: 500;
   font-size: 10px;
   line-height: 16px;
@@ -30,8 +28,6 @@
   background: #3456F3;
   border: none;
   border-radius: 3px;
-  font-family: Inter;
-  font-style: normal;
   font-weight: 500;
   font-size: 10px;
   line-height: 16px;
