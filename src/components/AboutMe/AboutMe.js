@@ -34,38 +34,6 @@ function AboutMe() {
         >
           Github
         </a>
-
-        {/* <p className='about-me__portfolio-title'>Портфолио</p>
-        <ul className='about-me__portfolio-list'>
-          <li className='about-me__portfolio-item'>
-            <a
-              className='about-me__link'
-              href='https://calorifer75.github.io/russian-travel/index.html'
-              target='_blank'
-              rel='noreferrer'
-            >
-              Статичный сайт
-            </a>
-          </li>
-          <li className='about-me__portfolio-item'>
-            <a className='about-me__link'
-              href='https://calorifer75.github.io/mesto/index'
-              target='_blank'
-              rel='noreferrer'
-            >
-              Адаптивный сайт
-            </a>
-          </li>
-          <li className='about-me__portfolio-item'>
-            <a className='about-me__link'
-              href='https://calorifer75.github.io/mesto/index'
-              target='_blank'
-              rel='noreferrer'
-            >
-              Одностраничное приложение
-            </a>
-          </li>
-        </ul> */}
       </div>
     </section>
   );

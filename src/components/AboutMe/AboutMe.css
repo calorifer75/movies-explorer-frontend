@@ -11,6 +11,8 @@
 .about-me__photo {
   object-fit: cover;
   margin-bottom: 40px;
+  width: 292px;
+  height: 352px;
 }
 
 .about-me__name {
