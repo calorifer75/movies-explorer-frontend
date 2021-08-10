@@ -8,4 +8,5 @@
   margin: 40px 10px 10px 10px;
   display: grid;
   grid-template-columns: 1fr;
+  row-gap: 34px;
 }
