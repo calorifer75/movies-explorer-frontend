@@ -1,0 +1,11 @@
+.movies-card-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.movies-card-list__wrapper {
+  margin: 40px 10px 10px 10px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
