@@ -6,6 +6,8 @@
 
 .search-form__wrapper {
   margin: 80px 10px 10px 10px;
+  padding-bottom: 45px;
+  border-bottom: 1px solid #E8E8E8;
 }
 
 .search-form__form {
