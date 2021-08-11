@@ -9,6 +9,10 @@
   margin: 18px 14px;
 }
 
+.header__logo {
+  margin-top: 2px;
+}
+
 .header__right-side {
   display: flex;
   justify-content: right;

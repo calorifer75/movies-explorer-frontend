@@ -27,7 +27,7 @@ const cardList = [
 function SavedMovies() {
   return (
     <>
-      <Header />
+      <Header registerLinkHidden={true} loginBtnHidden={true}/>
       <SearchForm />
       <MoviesCardList cardList={cardList} />
       <Footer />

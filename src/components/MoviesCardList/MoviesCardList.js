@@ -5,9 +5,10 @@ function MoviesCardList(props) {
   return (
     <section className='movies-card-list'>
       <div className='movies-card-list__wrapper'>
-        {props.cardList.map((card) => {
+        {props.cardList.map((card, i) => {
           return (
             <MoviesCard
+              key={i}
               filmSrc={card.filmSrc}
               filmName={card.filmName}
               filmTime={card.filmTime}

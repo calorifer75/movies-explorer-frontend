@@ -28,7 +28,7 @@ const cardList = [
 function Movies() {
   return (
     <>
-      <Header />
+      <Header registerLinkHidden={true} loginBtnHidden={true}/>
       <SearchForm />
       <MoviesCardList cardList={cardList} />
       <MoviesMoreCards />
