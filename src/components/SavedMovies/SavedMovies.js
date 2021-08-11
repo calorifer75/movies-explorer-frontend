@@ -1,8 +1,7 @@
-import './Movies.css';
+import './SavedMovies.css';
 import Header from '../Header/Header';
 import SearchForm from '../SearchForm/SearchForm';
 import MoviesCardList from '../MoviesCardList/MoviesCardList';
-import MoviesMoreCards from '../MoviesMoreCards/MoviesMoreCards';
 import Footer from '../Footer/Footer';
 
 // временно, на период верстки
@@ -14,27 +13,26 @@ const cardList = [
     filmName: '33 слова о дизайне',
     filmTime: '1ч 42м',
     saved: true,
-    allowDelete: false,
+    allowDelete: true,
   },
   {
     filmSrc: filmTwoSrc,
     filmName: 'В погоне за Бенкси',
     filmTime: '1ч 42м',
-    saved: false,
-    allowDelete: false,
+    saved: true,
+    allowDelete: true,
   },
 ];
 
-function Movies() {
+function SavedMovies() {
   return (
     <>
       <Header />
       <SearchForm />
       <MoviesCardList cardList={cardList} />
-      <MoviesMoreCards />
       <Footer />
     </>
   );
 }
 
-export default Movies;
+export default SavedMovies;

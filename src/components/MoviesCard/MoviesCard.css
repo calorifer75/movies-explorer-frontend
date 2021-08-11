@@ -46,6 +46,10 @@
   background-image: url(../../images/save-white.svg);
 }
 
+.movies-card__save_x {
+  background-image: url(../../images/save-x.svg);
+}
+
 .movies-card__film-time {
   font-size: 10px;
   line-height: 12px;
