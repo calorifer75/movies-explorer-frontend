@@ -14,12 +14,12 @@ function Header(props) {
           <img className='header__logo' src={logoImg} alt='Логотип'></img>
         </Link>
         <div className='header__right-side'>
-          <a
-            className={`header__register-link ${registerLinkHidden}`}
-            href='#register'
+          <Link
+            to='/signup'
+            className={`header__register-link ${registerLinkHidden}`}            
           >
             Регистрация
-          </a>
+          </Link>
           <Link className={`header__login-link ${loginLinkHidden}`} to='/signin'>
             Войти
           </Link>
