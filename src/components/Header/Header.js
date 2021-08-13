@@ -4,7 +4,7 @@ import logoImg from '../../images/logo.svg';
 
 function Header(props) {
   const registerLinkHidden = props.registerLinkHidden ? 'hidden' : '';
-  const loginBtnHidden = props.loginBtnHidden ? 'hidden' : '';
+  const loginLinkHidden = props.loginLinkHidden ? 'hidden' : '';
   const menuBtnHidden = props.menuBtnHidden ? 'hidden' : '';
 
   return (
@@ -20,13 +20,13 @@ function Header(props) {
           >
             Регистрация
           </a>
-          <button
-            className={`header__login-btn ${loginBtnHidden}`}
-            type='button'
-          >
+          <Link className={`header__login-link ${loginLinkHidden}`} to='/signin'>
             Войти
-          </button>
-          <button className={`header__menu-btn ${menuBtnHidden}`} type='button'></button>
+          </Link>
+          <button
+            className={`header__menu-btn ${menuBtnHidden}`}
+            type='button'
+          ></button>
         </div>
       </div>
     </header>

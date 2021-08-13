@@ -4,14 +4,14 @@ import Header from '../Header/Header';
 function Profile() {
   return (
     <>
-      <Header registerLinkHidden={true} loginBtnHidden={true} />
+      <Header registerLinkHidden={true} loginLinkHidden={true} />
       <main className='profile'>
         <div className='profile__wrapper'>
           <h1 className='profile__title'>Привет, Вячеслав!</h1>
-          <form className='profile__form' name='profile-form'>
+          <form className='profile__form' name='profileForm'>
             <div style={{ width: 'inherit' }}>
               <div className='profile__form-line'>
-                <label className='profile__label' for='userName'>
+                <label className='profile__label' htmlFor='userName'>
                   Имя
                 </label>
                 <input
@@ -22,7 +22,7 @@ function Profile() {
                 ></input>
               </div>
               <div className='profile__form-line profile__form-line_bottom'>
-                <label className='profile__label' for='userEmail'>
+                <label className='profile__label' htmlFor='userEmail'>
                   E-mail
                 </label>
                 <input

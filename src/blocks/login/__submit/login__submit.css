@@ -1,0 +1,9 @@
+.login__submit {
+  background: #3456F3;
+  border-radius: 3px;
+  border: none;
+  color: #fff;
+  padding: 15px;
+  width: 100%;
+  cursor: pointer;
+}

@@ -1,0 +1,10 @@
+.login__form {
+  width: 100%;
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;  
+  margin-bottom: 14px;
+  background-color: inherit;
+}

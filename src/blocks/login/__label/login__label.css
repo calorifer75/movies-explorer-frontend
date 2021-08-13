@@ -1,0 +1,10 @@
+.login__label {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  color: #A0A0A0;
+  background-color: inherit;
+  margin-bottom: 10px;
+}
