@@ -13,3 +13,7 @@ a {
 a:visited {
   color: #000;
 }
+
+* {
+  background-color: #FAFAFA;
+}

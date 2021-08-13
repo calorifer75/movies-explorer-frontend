@@ -8,7 +8,7 @@ function SearchForm() {
         <form className='search-form__form' name='search-form'>
           <input
             className='search-form__film-name'
-            id='film-name'
+            name='filmName'
             type='text'
             placeholder='Фильм'
           ></input>

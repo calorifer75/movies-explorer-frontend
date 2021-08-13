@@ -10,8 +10,10 @@ import Footer from '../Footer/Footer';
 function Main() {
   return (
     <>
-      <Header menuBtnHidden={true}/>
-      <Promo />
+      <div className='main'>
+        <Header menuBtnHidden={true} />
+        <Promo />
+      </div>
       <AboutProject />
       <Techs />
       <AboutMe />
