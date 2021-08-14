@@ -9,6 +9,9 @@ import Login from '../Login/Login';
 import Register from '../Register/Register';
 import NotFound from '../NotFound/NotFound';
 
+// TODO: ВРЕМЕННО!!!
+import Navigation from '../Navigation/Navigation';
+
 function App() {
   return (
     <div className='page'>
@@ -30,6 +33,9 @@ function App() {
         </Route>
         <Route exact path='/signup'>
           <Register />
+        </Route>
+        <Route exact path='/menu'>
+          <Navigation />
         </Route>
         <Route path='*'>
           <NotFound />
