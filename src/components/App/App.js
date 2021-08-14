@@ -1,3 +1,4 @@
+import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 import './App.css';
@@ -8,9 +9,6 @@ import Profile from '../Profile/Profile';
 import Login from '../Login/Login';
 import Register from '../Register/Register';
 import NotFound from '../NotFound/NotFound';
-
-// TODO: ВРЕМЕННО!!!
-import Navigation from '../Navigation/Navigation';
 
 function App() {
   return (
@@ -34,13 +32,10 @@ function App() {
         <Route exact path='/signup'>
           <Register />
         </Route>
-        <Route exact path='/menu'>
-          <Navigation />
-        </Route>
         <Route path='*'>
           <NotFound />
         </Route>
-      </Switch>
+      </Switch>      
     </div>
   );
 }

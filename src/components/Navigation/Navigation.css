@@ -1,6 +1,7 @@
 .navigation {
   opacity: 0;
   visibility: hidden;
+  z-index: 100;
   position: fixed;
   display: flex;
   flex-direction: column;
@@ -13,7 +14,7 @@
   transition: opacity .3s linear, visibility .3s linear;
 }
 
-.navigation_opened {
+.navigation_open {
   visibility: visible;
   opacity: 1;
 }
@@ -49,13 +50,6 @@
   border: none;
   margin: 14px 14px 0 0;
   cursor: pointer;
-}
-
-.navigation__title {
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 22px;
-  margin: 0 0 24px 0;
 }
 
 .navigation__link {

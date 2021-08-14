@@ -1,10 +1,13 @@
 import './Profile.css';
 import Header from '../Header/Header';
 
-function Profile() {
+function Profile(props) {
   return (
     <>
-      <Header registerLinkHidden={true} loginLinkHidden={true} />
+      <Header
+        registerLinkHidden={true}
+        loginLinkHidden={true}
+      />
       <main className='profile'>
         <div className='profile__wrapper'>
           <h1 className='profile__title'>Привет, Вячеслав!</h1>
