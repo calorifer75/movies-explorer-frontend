@@ -10,7 +10,7 @@ function Login() {
         </Link>
         <h1 className='login__title'>Рады видеть!</h1>
         <form className='login__form' name='loginForm'>
-          <div style={{ width: 'inherit', backgroundColor: 'inherit' }}>
+          <div style={{ width: 'inherit' }}>
             <div className='login__form-line'>
               <label className='login__label' htmlFor='userEmail'>
                 E-mail
