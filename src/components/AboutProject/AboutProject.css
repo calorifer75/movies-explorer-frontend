@@ -59,3 +59,39 @@
   color: #a0a0a0;
   margin: 10px 0 0 0;
 }
+
+@media screen and (min-width: 768px) {
+  .about-project__wrapper {
+    margin: 76px 50px;
+  }
+
+  .about-project__paragraph {
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 93px;
+  }
+
+  .about-project__row {
+    display: flex;
+  }
+
+  .about-project__column {
+    margin-right: 30px;
+  }
+
+  .about-project__column:last-child {
+    margin-right: 0;
+  }
+
+  .about-project__timeline {
+    font-size: 14px;
+    line-height: 17px;    
+  }
+
+  .about-project__timeline-text {
+    font-family: Suisse Intl;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 14px 0 0 0;
+  }
+}

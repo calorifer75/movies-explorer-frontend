@@ -36,3 +36,14 @@
   width: 292px;
   background-color: inherit;
 }
+
+@media screen and (min-width: 768px) {
+  .promo__text-banner {
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .promo__text-banner span {
+    width: 680px;
+  }
+}

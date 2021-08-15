@@ -13,6 +13,7 @@
   margin-bottom: 40px;
   width: 292px;
   height: 352px;
+  border-radius: 10px;
 }
 
 .about-me__name {
@@ -40,4 +41,51 @@
   font-size: 14px;
   line-height: 17px;
   margin-right: 26px;  
+}
+
+@media screen and (min-width: 768px) {
+  .about-me__wrapper {
+    margin: 44px 50px 90px 50px;
+  }
+
+  .about-me__photo {
+    margin-bottom: 0;
+    width: 255px;
+    height: 307px;
+  }
+
+  .about-me__row {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .about-me__column {
+    margin-right: 49px;
+  }
+
+  .about-me__column:first-child {
+    margin-right: 0;
+  }
+
+  .about-me__name {
+    margin: 0 0 16px 0;
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .about-me__paragraph-1 {
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0 0 20px 0;
+  }
+
+  .about-me__paragraph-2 {  
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0 0 34px 0;
+  }
+
+  .about-me__link {
+    margin-right: 20px;  
+  }
 }
