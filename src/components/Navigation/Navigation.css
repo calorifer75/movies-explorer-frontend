@@ -75,3 +75,29 @@
   border-radius: 20px;
   margin-bottom: 46px;
 }
+
+@media screen and (min-width: 768px) {
+  .navigation {
+    align-items: flex-end;
+  }
+
+  .navigation__main {
+    width: 520px;
+  }
+
+  .navigation__close {
+    margin-bottom: 105px;
+  }
+
+  .navigation__close button {
+    margin: 22px 22px 0 0;
+  }
+
+  .navigation__link {
+    margin-bottom: 28px;
+  }
+
+  .navigation__profile {
+    margin-bottom: 90px;
+  }
+}
