@@ -2,6 +2,7 @@
   font-size: 11px;
   line-height: 18px;
   text-align: center;
+  cursor: pointer;
 }
 
 .filter-checkbox input {
@@ -47,4 +48,24 @@
   background: #fff;  
   left: inherit;
   right: 1px;  
+}
+
+@media screen and (min-width: 768px) {
+  .filter-checkbox {
+    font-size: 13px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    background: inherit;
+    border-top-right-radius: inherit;
+    border-bottom-right-radius: inherit;
+    margin: 16px 20px 16px 0;
+    padding-left: 19px;
+    border-left: 1px solid #CBCBCB;
+  }
+
+  .filter-checkbox input 
+    + .filter-checkbox__box-green {
+    margin: 0 13px -1px 0;
+  }
 }
