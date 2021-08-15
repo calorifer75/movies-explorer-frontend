@@ -4,3 +4,9 @@
   line-height: 29px;
   margin: 0 0 80px 0;  
 }
+
+@media screen and (min-width: 768px) {
+  .login__title {
+    margin-bottom: 40px;
+  }
+}

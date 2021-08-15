@@ -33,6 +33,7 @@ function Login() {
                 id='userPassword'
               ></input>              
             </div>
+            <div className='login__divider'></div>
           </div>
           <button className='login__submit' type='submit'>
             Войти
