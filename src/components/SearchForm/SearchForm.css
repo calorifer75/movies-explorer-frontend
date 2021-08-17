@@ -73,3 +73,14 @@
     top: 18px;    
   }
 }
+
+@media screen and (min-width: 1280px) {  
+  .search-form__wrapper {
+    margin: 70px 70px 10px 70px;
+    padding-bottom: 70px;
+  }
+
+  .search-form__submit {
+    right: 245px;
+  }
+}

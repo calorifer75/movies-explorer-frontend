@@ -37,6 +37,34 @@ const cardList = [
     saved: false,
     allowDelete: false,
   },
+  {
+    filmSrc: filmOneSrc,
+    filmName: '33 слова о дизайне',
+    filmTime: '1ч 42м',
+    saved: true,
+    allowDelete: false,
+  },
+  {
+    filmSrc: filmTwoSrc,
+    filmName: 'В погоне за Бенкси',
+    filmTime: '1ч 42м',
+    saved: false,
+    allowDelete: false,
+  },
+  {
+    filmSrc: filmOneSrc,
+    filmName: '33 слова о дизайне',
+    filmTime: '1ч 42м',
+    saved: true,
+    allowDelete: false,
+  },
+  {
+    filmSrc: filmTwoSrc,
+    filmName: 'В погоне за Бенкси',
+    filmTime: '1ч 42м',
+    saved: false,
+    allowDelete: false,
+  },
 ];
 
 function Movies() {
