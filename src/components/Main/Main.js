@@ -11,7 +11,7 @@ function Main() {
   return (
     <>
       <div className='main'>
-        <Header menuBtnHidden={true} />
+        <Header menuBtnHidden={true} navigationHidden={true} />
         <Promo />
       </div>
       <AboutProject />

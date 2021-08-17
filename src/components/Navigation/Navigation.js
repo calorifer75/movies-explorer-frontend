@@ -2,47 +2,49 @@ import { Link } from 'react-router-dom';
 import './Navigation.css';
 
 function Navigation(props) {
+  const navigationHidden = props.navigationHidden ? 'hidden' : '';
+
   return (
-    <div className={`navigation ${props.isOpen ? 'navigation_open' : ''}`}>
-      <main className='navigation__main'>
-        <div className='navigation__wrapper'>
-          <div className='navigation__close'>
-            <button
-              type='button'
-              onClick={props.onNavigationCloseClick}
-            ></button>
-          </div>
+    <ul className={`navigation ${navigationHidden}`}>
+      <div className='navigation__wrapper'>
+        <li className='navigation__item'>
           <Link
-            className='navigation__link'
+            className='navigation__link navigation__link_to-main'
             to='/'
-            onClick={props.onNavigationCloseClick}
+            onClick={props.onMenuCloseClick}
           >
             Главная
           </Link>
+        </li>
+        <li className='navigation__item'>
           <Link
             className='navigation__link'
             to='/movies'
-            onClick={props.onNavigationCloseClick}
+            onClick={props.onMenuCloseClick}
           >
             Фильмы
           </Link>
+        </li>
+        <li className='navigation__item'>
           <Link
             className='navigation__link'
             to='/saved-movies'
-            onClick={props.onNavigationCloseClick}
+            onClick={props.onMenuCloseClick}
           >
             Сохраненные фильмы
           </Link>
-        </div>
+        </li>
+      </div>
+      <li className='navigation__item navigation__item_profile'>
         <Link
-          className='navigation__profile'
+          className='navigation__link navigation__link_profile'
           to='/profile'
-          onClick={props.onNavigationCloseClick}
+          onClick={props.onMenuCloseClick}
         >
           Аккаунт
         </Link>
-      </main>
-    </div>
+      </li>
+    </ul>
   );
 }
 
