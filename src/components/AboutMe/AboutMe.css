@@ -89,3 +89,40 @@
     margin-right: 20px;  
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .about-me__wrapper {
+    margin: 110px 70px 100px 70px;
+  }
+
+  .about-me__row {
+    margin-top: -24px;
+  }
+
+  .about-me__name {
+    font-size: 50px;
+    line-height: 58px;
+    margin-bottom: 18px;
+  }
+
+  .about-me__paragraph-1 {
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 26px;
+  }
+
+  .about-me__paragraph-2 {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 55px;
+  }
+
+  .about-me__photo {
+    width: 270px;
+    height: 327px;
+  }
+
+  .about-me__column {
+    margin-right: 270px;
+  }
+}

@@ -47,3 +47,15 @@
     width: 680px;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .promo__wrapper {
+    margin: 20px 40px 0 40px;
+  }
+
+  .promo__text-banner {
+    font-size: 50px;
+    line-height: 58px;
+    padding: 160px 0 151px 0;
+  }
+}

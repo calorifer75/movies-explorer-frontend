@@ -57,3 +57,13 @@
     line-height: 50px;    
   }
 }
+
+@media screen and (min-width: 1280px) {  
+  .portfolio__wrapper {
+    margin: 0 70px 125px 70px;
+  }
+
+  .portfolio__link {
+    font-size: 30px;
+  }
+}

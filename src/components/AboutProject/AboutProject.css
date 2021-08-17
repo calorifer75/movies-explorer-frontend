@@ -95,3 +95,23 @@
     margin: 14px 0 0 0;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .about-project__wrapper {
+    margin: 110px 70px;
+  }
+
+  .about-project__paragraph {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 110px;
+  }
+
+  .about-project__column {
+    margin-right: 40px;
+  }  
+
+  .about-project__backend-wrapper {
+    flex: .4 0 auto;
+  }
+}
