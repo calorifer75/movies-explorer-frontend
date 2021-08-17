@@ -52,7 +52,7 @@
   line-height: 13px;
   min-width: 50px;
   padding-top: 2px;
-  font-family: Inter;
+  font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 11px;
@@ -64,19 +64,29 @@
   line-height: 13px;
   text-align: right;
   border: none;
+  border-bottom: 1px solid transparent;
   outline: none;  
   width: 100%;
-  font-family: Inter;
+  font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 11px;
   line-height: 13px;
+  transition: border .3s linear;
+}
+
+.profile__input:hover {
+  border-bottom: 1px solid #3456F3;
+}
+
+.profile__input:focus {
+  border-bottom: 1px solid #3456F3;
 }
 
 .profile__submit {  
   cursor: pointer;
   border: none;
-  font-family: Inter;
+  font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -84,7 +94,7 @@
 }
 
 .profile__exit {
-  font-family: Inter;
+  font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;

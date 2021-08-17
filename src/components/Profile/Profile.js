@@ -11,7 +11,7 @@ function Profile(props) {
       <main className='profile'>
         <div className='profile__wrapper'>
           <h1 className='profile__title'>Привет, Вячеслав!</h1>
-          <form className='profile__form' name='profileForm'>
+          <form className='profile__form' name='profileForm' autoComplete='off'>
             <div style={{ width: 'inherit' }}>
               <div className='profile__form-line'>
                 <label className='profile__label' htmlFor='userName'>
@@ -22,6 +22,7 @@ function Profile(props) {
                   type='text'
                   name='userName'
                   id='userName'
+                  placeholder='Имя'
                 ></input>
               </div>
               <div className='profile__form-line profile__form-line_bottom'>
@@ -33,6 +34,7 @@ function Profile(props) {
                   type='email'
                   name='userEmail'
                   id='userEmail'
+                  placeholder='E-mail'
                 ></input>
               </div>
             </div>

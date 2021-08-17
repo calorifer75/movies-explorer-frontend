@@ -9,6 +9,7 @@ import Profile from '../Profile/Profile';
 import Login from '../Login/Login';
 import Register from '../Register/Register';
 import NotFound from '../NotFound/NotFound';
+import Preloader from '../Preloader/Preloader';
 
 function App() {
   return (
@@ -35,7 +36,8 @@ function App() {
         <Route path='*'>
           <NotFound />
         </Route>
-      </Switch>      
+      </Switch>
+      <Preloader />
     </div>
   );
 }

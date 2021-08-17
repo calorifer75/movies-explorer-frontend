@@ -9,7 +9,7 @@ function Login() {
           <img className='login__logo' src={logoImg} alt='Логотип'></img>
         </Link>
         <h1 className='login__title'>Рады видеть!</h1>
-        <form className='login__form' name='loginForm'>
+        <form className='login__form' name='loginForm' autoComplete='off'>
           <div style={{ width: 'inherit' }}>
             <div className='login__form-line'>
               <label className='login__label' htmlFor='userEmail'>
@@ -20,6 +20,7 @@ function Login() {
                 type='email'
                 name='userEmail'
                 id='userEmail'
+                placeholder='E-Mail'
               ></input>              
             </div>
             <div className='login__form-line'>
@@ -31,6 +32,7 @@ function Login() {
                 type='password'
                 name='userPassword'
                 id='userPassword'
+                placeholder='Пароль'
               ></input>              
             </div>
             <div className='login__divider'></div>

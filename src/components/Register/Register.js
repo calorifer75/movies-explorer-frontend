@@ -9,7 +9,7 @@ function Register() {
           <img src={logoImg} alt='Логотип'></img>
         </Link>
         <h1 className='login__title'>Добро пожаловать!</h1>
-        <form className='login__form' name='registerForm'>
+        <form className='login__form' name='registerForm' autoComplete='off'>
           <div style={{ width: 'inherit', backgroundColor: 'inherit' }}>
             <div className='login__form-line'>
               <label className='login__label' htmlFor='userName'>
@@ -20,6 +20,7 @@ function Register() {
                 type='text'
                 name='userName'
                 id='userName'
+                placeholder='Имя'
               ></input>
             </div>
             <div className='login__form-line'>
@@ -31,6 +32,7 @@ function Register() {
                 type='email'
                 name='userEmail'
                 id='userEmail'
+                placeholder='E-Mail'
               ></input>
             </div>
             <div className='login__form-line'>
@@ -42,6 +44,7 @@ function Register() {
                 type='password'
                 name='userPassword'
                 id='userPassword'
+                placeholder='Пароль'
               ></input>
               <p className='error'>Что-то пошло не так...</p>
             </div>
