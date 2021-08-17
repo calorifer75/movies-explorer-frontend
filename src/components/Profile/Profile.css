@@ -113,3 +113,17 @@
     line-height: 16px;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .profile__wrapper {
+    margin: 74px 0 70px 0;
+  }
+
+  .profile__form {
+    width: 410px;
+  }
+
+  .profile__title {
+    margin-bottom: 123px;
+  }
+}
