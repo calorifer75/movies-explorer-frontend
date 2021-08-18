@@ -23,6 +23,7 @@ function Profile(props) {
                   name='userName'
                   id='userName'
                   placeholder='Имя'
+                  required
                 ></input>
               </div>
               <div className='profile__form-line profile__form-line_bottom'>
@@ -35,6 +36,7 @@ function Profile(props) {
                   name='userEmail'
                   id='userEmail'
                   placeholder='E-mail'
+                  required
                 ></input>
               </div>
             </div>

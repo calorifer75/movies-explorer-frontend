@@ -20,6 +20,7 @@ function Login() {
                 type='email'
                 name='userEmail'
                 id='userEmail'
+                required
                 placeholder='E-Mail'
               ></input>              
             </div>
@@ -33,6 +34,7 @@ function Login() {
                 name='userPassword'
                 id='userPassword'
                 placeholder='Пароль'
+                required
               ></input>              
             </div>
             <div className='login__divider'></div>

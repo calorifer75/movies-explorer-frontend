@@ -21,6 +21,7 @@ function Register() {
                 name='userName'
                 id='userName'
                 placeholder='Имя'
+                required
               ></input>
             </div>
             <div className='login__form-line'>
@@ -33,6 +34,7 @@ function Register() {
                 name='userEmail'
                 id='userEmail'
                 placeholder='E-Mail'
+                required
               ></input>
             </div>
             <div className='login__form-line'>
@@ -45,6 +47,7 @@ function Register() {
                 name='userPassword'
                 id='userPassword'
                 placeholder='Пароль'
+                required
               ></input>
               <p className='error'>Что-то пошло не так...</p>
             </div>
